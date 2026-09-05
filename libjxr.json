@@ -1,0 +1,20 @@
+{
+    "name": "libjxr",
+    "description": "JPEG XR (HD Photo) decoder",
+    "filters":["jxrdec"],
+    "help": "This filter decodes JPEG XR (ITU-T T.832, also known as HD Photo / Windows Media Photo) images using jxrlib.",
+    "support": [
+        "image"
+    ],
+    "sources":"https://bevara.ddns.net/sources/libjxr.accessor",
+    "filter_source":{
+        "jxrdec" : "dec_jxr.c"
+    },
+    "extension":{
+      "jxr" : "img",
+      "wdp" : "img",
+      "hdp" : "img",
+      "wmp" : "img"
+    },
+    "licence_required":false
+}
