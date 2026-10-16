@@ -16,6 +16,10 @@
       "hdp" : "img",
       "wmp" : "img"
     },
-    "licence_required":false,
-    "using": ["solver_minimal_1", "solver_1"]
+    "using": ["solver_minimal_1", "solver_1"],
+    "patents": {
+        "status": "royalty-free",
+        "note": "JPEG XR, Microsoft Community Promise",
+        "checked": "2026-10-16"
+    }
 }
