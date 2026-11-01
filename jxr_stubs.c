@@ -1,5 +1,5 @@
 /*
- *  Six libc symbols that jxrlib references and solver_minimal_1 does not
+ *  Six libc symbols that jxrlib references and mm_solver_minimal_1.0.1 does not
  *  export. A side module whose imports are not all resolved never instantiates
  *  at all - the filter simply never registers - so each one has to be defined
  *  here (the approach libape/dec_ape.cpp already takes for its wide-char
