@@ -2,22 +2,31 @@
     "name": "libjxr",
     "version": "1.0.2",
     "description": "JPEG XR (HD Photo) decoder",
-    "filters":["jxrdec"],
+    "filters": [
+        "jxrdec"
+    ],
     "help": "This filter decodes JPEG XR (ITU-T T.832, also known as HD Photo / Windows Media Photo) images using jxrlib.",
     "support": [
         "image"
     ],
-    "sources":"https://bevara.ddns.net/sources/libjxr.accessor",
-    "filter_source":{
-        "jxrdec" : "dec_jxr.c"
+    "sources": "https://bevara.ddns.net/sources/libjxr.accessor",
+    "filter_source": {
+        "jxrdec": "dec_jxr.c"
     },
-    "extension":{
-      "jxr" : "img",
-      "wdp" : "img",
-      "hdp" : "img",
-      "wmp" : "img"
+    "extension": {
+        "jxr": "img",
+        "wdp": "img",
+        "hdp": "img",
+        "wmp": "img"
     },
-    "using": ["mm_solver_minimal_1.0.1", "mm_solver_1.0.1", "mm_solver_1.0.2", "mm_solver_1.0.3", "mm_solver_1.0.4"],
+    "using": [
+        "mm_solver_minimal_1.0.1",
+        "mm_solver_1.0.1",
+        "mm_solver_1.0.2",
+        "mm_solver_1.0.3",
+        "mm_solver_1.0.4",
+        "mm_solver_1.0.5"
+    ],
     "patents": {
         "status": "royalty-free",
         "note": "JPEG XR, Microsoft Community Promise",
